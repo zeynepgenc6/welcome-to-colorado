@@ -42,17 +42,59 @@ header a{
     display: inline-block;
     margin: 20;
 }
-@media (max-width: 800px) {
+footer{
+    color: white;
+    background-image: linear-gradient(rgba(39,32,68,0.9),rgba(39,32,68,0.9)) url("../images/photo-1648441095877-90406e6ba04d.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 10px;
+}
+footer h3{
+     font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+footer p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1;
+    margin: 10px;
+}
+footer ul{
+    margin: 0;
+}
+footer li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer a{
+    color: white;
+    opacity: 0,7;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 960px) {
     header{
         padding: 60px 0;
     }
     header h1{
-        font-size: 25px;
+        font-size: 30px;
     }
     header h3{
-        font-size: 15px;
+        font-size: 18px;
     }
     header a{
-        font-size: 15px;
+        font-size: 18px;
     }
 }
